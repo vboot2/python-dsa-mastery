@@ -8,4 +8,3 @@ This folder contains:
 ### LeetCode Practice
 - Letter Combinations of a Phone Number (LeetCode 17)
 - N-Queens (LeetCode 51)
-- Sudoku Solver (LeetCode 37)
