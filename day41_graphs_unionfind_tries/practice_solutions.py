@@ -23,41 +23,7 @@ class SolutionLongestConsecutive:
 
 
 # ---------------------------------------------------------
-# Problem 2: Graph Valid Tree (LeetCode 261, Medium)
-# Link: https://leetcode.com/problems/graph-valid-tree/
-# ---------------------------------------------------------
-class SolutionValidTree:
-    def validTree(self, n, edges):
-        parent = [i for i in range(n)]
-        rank = [1] * n
-
-        def find(x):
-            while x != parent[x]:
-                parent[x] = parent[parent[x]]
-                x = parent[x]
-            return x
-
-        def union(x, y):
-            rootX, rootY = find(x), find(y)
-            if rootX == rootY:
-                return False
-            if rank[rootX] > rank[rootY]:
-                parent[rootY] = rootX
-            elif rank[rootX] < rank[rootY]:
-                parent[rootX] = rootY
-            else:
-                parent[rootY] = rootX
-                rank[rootX] += 1
-            return True
-
-        for x, y in edges:
-            if not union(x, y):
-                return False
-        return len(edges) == n - 1
-
-
-# ---------------------------------------------------------
-# Problem 3: Evaluate Division (LeetCode 399, Medium)
+# Problem 2: Evaluate Division (LeetCode 399, Medium)
 # Link: https://leetcode.com/problems/evaluate-division/
 # ---------------------------------------------------------
 class SolutionEvaluateDivision:
@@ -94,9 +60,6 @@ class SolutionEvaluateDivision:
 if __name__ == "__main__":
     print("Longest Consecutive Sequence:",
           SolutionLongestConsecutive().longestConsecutive([100,4,200,1,3,2]))
-    
-    print("Valid Tree:",
-          SolutionValidTree().validTree(5, [[0,1],[0,2],[0,3],[1,4]]))
     
     equations = [["a","b"],["b","c"]]
     values = [2.0,3.0]
