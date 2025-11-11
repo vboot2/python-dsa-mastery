@@ -51,7 +51,7 @@ def example_two():
     heap = []
 
     # push latest tweets from self and following
-    for user in [1] | following[1]:
+    for user in {1} | following[1]:
         for ts, twid in tweets.get(user, []):
             heapq.heappush(heap, (-ts, twid))
 
