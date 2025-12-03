@@ -1,9 +1,8 @@
 # Day 93: Backtracking
 
-This folder contains:
-- `day93_backtracking_intro.py` – Backtracking fundamentals & examples
-- `practice_solutions.py` – LeetCode-style solutions for backtracking problems
-- `README.md` – Documentation
+- `day94_backtracking_intro.py` - Examples of backtracking basics & pruning techniques  
+- `practice_solutions.py` - LeetCode-style backtracking problems & solutions
+- `README.md` - Documentation
 
 
 ### LeetCode Practice
