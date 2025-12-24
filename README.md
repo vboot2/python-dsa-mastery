@@ -19,7 +19,6 @@ Each **day folder** contains:
   `leetcode_<problem_number>_<problem_name>.py`
 
 - **Documentation file**
-  Documentation
 
 ---
 
