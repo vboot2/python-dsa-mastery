@@ -18,7 +18,7 @@ Each **day folder** contains:
   File names follow the format:  
   `leetcode_<problem_number>_<problem_name>.py`
 
-- **Practice & documentation files**
+- **Documentation file**
   Documentation
 
 ---
