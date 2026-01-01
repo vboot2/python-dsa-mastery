@@ -1,7 +1,8 @@
-""" Day 121: Two Pointers
+"""Day 121: Two Pointers
 Two pointers use indices moving from different directions or speeds to efficiently
 process arrays or strings without extra space.
 """
+
 
 # Example 1: Reverse only letters in a string
 def example_one():
@@ -24,6 +25,7 @@ def example_one():
             right -= 1
 
     return "".join(s)
+
 
 print("Output Example 1:", example_one())
 
@@ -50,5 +52,6 @@ def example_two():
             return False
 
     return i == len(name)
+
 
 print("Output Example 2:", example_two())
