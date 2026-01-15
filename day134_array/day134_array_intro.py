@@ -1,5 +1,5 @@
 """Day 134: Array
-This lesson focuses on array construction, in-place rotations,
+Array construction, in-place rotations,
 stack-based evaluation, and grid boundary processing.
 """
 
