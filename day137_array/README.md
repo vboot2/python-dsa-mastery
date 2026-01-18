@@ -2,7 +2,7 @@
 
 This folder contains:
 - `day137_array_intro.py` – Array fundamentals & examples
-- `practice_solutions.py` – LeetCode hash table problems
+- `practice_solutions.py` – LeetCode Array problems
 - `README.md` – Documentation
 
 ### LeetCode Practice
