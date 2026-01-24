@@ -10,15 +10,14 @@ The repository is organized **day-wise**, following a consistent learning format
 
 Each **day folder** contains:
 
-- **`intro.md`**  
-  An introduction to the topic(s) covered that day, including key concepts and theory.
+- **`README.md`**  
+  Documentation and summary of the day's topics and problems.
 
-- **LeetCode solution files (`.py`)**  
-  Python implementations of the problems solved on that day.  
-  File names follow the format:  
-  `leetcode_<problem_number>_<problem_name>.py`
+- **`dayXX_<topic>_intro.py`**  
+  Introduction code and examples for the topic.
 
-- **Documentation file**
+- **`practice_solutions.py`**  
+  Python implementations of the LeetCode problems solved on that day.
 
 ---
 
