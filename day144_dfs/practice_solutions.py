@@ -372,7 +372,7 @@ class SolutionProblemEleven:
 
 # ---------------------------------------------------------
 # Problem: Contain Virus (LeetCode 749)
-# Link:
+# Link: https://leetcode.com/problems/contain-virus/
 # ---------------------------------------------------------
 class SolutionProblemTwelve:
     def containVirus(self, isInfected: List[List[int]]) -> int:
