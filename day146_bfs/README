@@ -1,0 +1,23 @@
+# Day 146: Breadth-First Search (BFS)
+
+This folder contains:
+- `day146_bfs_intro.py` – BFS fundamentals & examples
+- `practice_solutions.py` – LeetCode BFS solutions
+- `README.md` – Documentation
+
+### LeetCode Practice
+- Add One Row to Tree (LeetCode 623)
+- Print Binary Tree (LeetCode 655)
+- Maximum Width of Binary Tree (LeetCode 662)
+- Bulb Switcher II (LeetCode 672)
+- Employee Importance (LeetCode 690)
+- Open the Lock (LeetCode 752)
+- All Paths From Source to Target (LeetCode 797)
+- Smallest Subtree with all the Deepest Nodes (LeetCode 865)
+- Snakes and Ladders (LeetCode 909)
+- Complete Binary Tree Inserter (LeetCode 919)
+- Shortest Bridge (LeetCode 934)
+- Check Completeness of a Binary Tree (LeetCode 958)
+- Regions Cut By Slashes (LeetCode 959)
+- Numbers With Same Consecutive Differences (LeetCode 967)
+- Rotting Oranges (LeetCode 994)
