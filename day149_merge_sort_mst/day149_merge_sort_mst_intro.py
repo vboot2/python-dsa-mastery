@@ -1,5 +1,5 @@
 """
-Day 149: Merge Sort & Minimum Spanning Tree (MST)
+Day 149: Merge Sort, Minimum Spanning Tree (MST) & Prefix Sum
 
 Merge Sort:
 - Divide and Conquer
@@ -8,6 +8,12 @@ Merge Sort:
 Minimum Spanning Tree:
 - Connect all nodes with minimum total edge weight
 - Kruskal (Union-Find) and Prim (Heap) are standard approaches
+
+Prefix Sum:
+When array values are transformed into +1 / -1,
+we can count majority subarrays in O(n) time by
+incrementally maintaining prefix dominance.
+
 """
 
 
@@ -66,3 +72,32 @@ class UnionFind:
             self.parent[py] = px
             self.rank[px] += 1
         return True
+
+
+# Example 3: +1 / -1 transformation
+def example_three():
+    nums = [1, 2, 2, 3]
+    target = 2
+    return [1 if x == target else -1 for x in nums]
+
+
+print("Output Example 1:", example_three())
+
+
+# Example 4: Prefix balance idea
+def example_four():
+    """
+    Prefix sums change only by +1 or -1.
+    This allows us to maintain how many valid
+    majority subarrays end at each index.
+    """
+    nums = [1, 2, 2, 3]
+    target = 2
+
+    balance = 0
+    for x in nums:
+        balance += 1 if x == target else -1
+        print("Current balance:", balance)
+
+
+example_four()
